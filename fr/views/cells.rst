@@ -94,7 +94,7 @@ Dans notre fichier de template, ajoutons ce qui suit::
 
 .. note::
 
-    Les templates des cells ont une portée isolée et ne partage pas la même
+    Les templates des cells ont une portée isolée et ne partagent pas la même
     instance de View que celle utilisée pour rendre le template et le layout
     de l'action du controller courant ou d'autres cells. Ils ne sont donc pas
     au courant de tous les appels aux helpers ou aux blocs définis dans
